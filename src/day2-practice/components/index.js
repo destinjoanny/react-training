@@ -41,13 +41,14 @@ export default function TransferApp() {
       <hr />
       Apakah mau tambah saldo?
       <br />
-      <button onClick={() => save1000(1000)}>Tambah Rp.1000</button>
-      <button onClick={() => save5000(5000)}>Tambah Rp.5000</button>
+      <button onClick={() => save1000(1000)} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded m-2.5">Tambah Rp.1000</button>
+      <button onClick={() => save5000(5000)} className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded m-2.5">Tambah Rp.5000</button>
       <hr />
       Apakah mau tarik saldo?
       <br/>
       {/* <button onClick={() => this.tarikSaldo1000()}>Tarik Rp.1000</button> */}
-      <ButtonKlik klik={() => withdrw1000(1000)} text={"Tarik Rp. 1000"} color={"Red"}/>
+      <button onClick={() => withdrw1000(1000)} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2.5">Tarik Rp.1000</button>
+      {/* <ButtonKlik klik={() => withdrw1000(1000)} text={"Tarik Rp. 1000"} color={"Red"}/> */}
     </Fragment>
   )
 }
