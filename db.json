@@ -1,0 +1,12 @@
+{
+    "todolists": [
+        {
+            "id": 1,
+            "task": "hello"
+        },
+        {
+            "id": 2,
+            "task": "hi"
+        }
+    ]
+}

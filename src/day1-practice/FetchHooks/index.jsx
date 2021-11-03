@@ -23,7 +23,7 @@ const FetchDataHooks = () => {
   return(
     <Fragment>
       <ol>
-        {users.map(user => <li>{user.username} - {user.phone}</li>)}
+        {users.map(user => <li className="bg-gray-300 mb-2 rounded h-8 flex items-center justify-center">{user.username} - {user.phone}</li>)}
         {/* {users.map((user, id) => (
           <div className="col">
             <div className="card shadow-sm">
