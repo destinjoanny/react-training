@@ -6,7 +6,7 @@ import CounterApp from './day1-practice/counterApp';
 import CounterHooks from './day1-practice/Hooks/CounterHooks';
 import TransferApp from './day2-practice/components';
 import RouterApp from './day3-practice/Router';
-import ReactRedux from './day4-practice/react-redux/index';
+import ReactReduxTransferApp from './day4-practice/react-redux/index';
 
 
 function App() {
@@ -17,10 +17,9 @@ function App() {
     //   <TransferApp />
     //   <FetchDataHooks />
     // </div>
-    <div className="App">
+    <div className="App m-20">
       {/* <RouterApp /> */}
-      ello
-      <ReactRedux />
+      <ReactReduxTransferApp />
     </div>
   );
 }
